@@ -16,7 +16,7 @@ function Contact() {
 
   const handleChange = (e) => {
     setFormData({
-      ...formData,
+      formData,
       [e.target.name]: e.target.value
     });
   };
@@ -39,7 +39,7 @@ function Contact() {
                 <div style={{padding: '2rem'}}>
                   <h2>Kirim Pesan</h2>
                    <form onSubmit={e => e.preventDefault()}
-                  {{marginBottom: '1rem'}}data-netlify="true" name="contact">
+                  style={{marginBottom: '1rem'}} data-netlify="true" name="contact">
                     
                     <div style={{marginBottom: '1rem'}}>
                                    
