@@ -45,7 +45,7 @@ function Contact() {
                   <h2>Kirim Pesan</h2>
                   <form onSubmit={handleSubmit} style={{marginTop: '1rem'}}>
                     <div style={{marginBottom: '1rem'}}>
-                     data-netlify="true"        name="contact"               > 
+                     data-netlify="true"        name="contact">               
                       <label htmlFor="name" style={{display: 'block', marginBottom: '0.5rem'}}>
                         Nama *
                       </label>
