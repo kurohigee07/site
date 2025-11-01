@@ -1,0 +1,13 @@
+# Netlify Build Configuration
+[build]
+  publish = "build"
+  command = "npm run build"
+
+# Netlify Redirect Rules
+# This ensures that client-side routing (Docusaurus) works by serving
+# index.html for all paths that don't match an existing file.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  
