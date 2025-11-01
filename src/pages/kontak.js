@@ -43,7 +43,8 @@ function Contact() {
               <div className="col col--6">
                 <div style={{padding: '2rem'}}>
                   <h2>Kirim Pesan</h2>
-                  <form onSubmit={handleSubmit} style={{marginTop: '1rem'}}> data-netlify="true" name="contact">
+                   <form onSubmit={handleSubmit} style={{marginBottom: '1rem'}}data-netlify="true" name="contact">
+                    
                     <div style={{marginBottom: '1rem'}}>
                                    
                       <label htmlFor="name" style={{display: 'block', marginBottom: '0.5rem'}}>
