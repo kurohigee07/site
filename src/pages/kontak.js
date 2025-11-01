@@ -23,7 +23,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Ini adalah formulir placeholder. Integrasi backend diperlukan untuk mengirim pesan.');
+    alert('Ini adalah formulir placeholder goblok. Integrasi backend diperlukan untuk mengirim pesan tolol.');
   };
 
   return (
@@ -45,6 +45,7 @@ function Contact() {
                   <h2>Kirim Pesan</h2>
                   <form onSubmit={handleSubmit} style={{marginTop: '1rem'}}>
                     <div style={{marginBottom: '1rem'}}>
+                     data-netlify="true"        name="contact"               > 
                       <label htmlFor="name" style={{display: 'block', marginBottom: '0.5rem'}}>
                         Nama *
                       </label>
